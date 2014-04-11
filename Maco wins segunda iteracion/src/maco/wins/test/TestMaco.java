@@ -34,7 +34,7 @@ public class TestMaco {
 	@Test
 	public void test() {
 
-		Assert.assertEquals("Viste? No ganaba esa guita..", 617.5,
+		Assert.assertEquals("Error", 617.5,
 				mac.gananciasDelDia(new Date()), 1d);
 
 	}
